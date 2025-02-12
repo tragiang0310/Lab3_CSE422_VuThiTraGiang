@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab3_CSE422_VuThiTraGiang.Model
 {
-    internal class ReturnTransaction : Transaction
+    public class ReturnTransaction : Transaction
     {
         public Book BookReturned { get; set; }
 

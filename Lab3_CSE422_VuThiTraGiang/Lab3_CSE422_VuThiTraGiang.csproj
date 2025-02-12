@@ -43,11 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\AdvancedNotificationService.cs" />
     <Compile Include="Model\Book.cs" />
+    <Compile Include="Model\BookClass.cs" />
     <Compile Include="Model\BorrowTransaction.cs" />
     <Compile Include="Model\Interface\IMemberActions.cs" />
     <Compile Include="Model\Interface\IPrintable.cs" />
+    <Compile Include="Model\Library.cs" />
+    <Compile Include="Model\LibraryCard.cs" />
     <Compile Include="Model\Member.cs" />
+    <Compile Include="Model\NotificationService.cs" />
     <Compile Include="Model\PremiumMember.cs" />
     <Compile Include="Model\ReturnTransaction .cs" />
     <Compile Include="Model\Transaction.cs" />

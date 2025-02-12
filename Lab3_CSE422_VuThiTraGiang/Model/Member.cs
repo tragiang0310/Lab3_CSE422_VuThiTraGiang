@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lab3_CSE422_VuThiTraGiang.Model
 {
-    internal class Member : IPrintable, IMemberActions
+    public class Member : IPrintable, IMemberActions
     {
         public string MemberID { get; set; }
         public string Name { get; set; }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lab3_CSE422_VuThiTraGiang.Model
 {
-    internal class Book : IPrintable
+    public class Book : IPrintable
     {
         public string ISBN { get; set; }
         public string Title { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab3_CSE422_VuThiTraGiang.Model
 {
-    internal abstract class Transaction
+    public abstract class Transaction
     {
         public string TransactionID { get; set; }
         public DateTime TransactionDate { get; set; }
