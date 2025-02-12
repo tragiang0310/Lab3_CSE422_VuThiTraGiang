@@ -69,5 +69,13 @@ namespace Lab3_CSE422_VuThiTraGiang.Model
             }
 
         }
+
+        // Event
+        public event Action<string> OnBookBorrowed;
+        public void BorrowBook(string bookTitle)
+        {
+            Console.WriteLine($"Book '{bookTitle}' borrowed.");
+            OnBookBorrowed?.Invoke(bookTitle);
+        }
     }
 }

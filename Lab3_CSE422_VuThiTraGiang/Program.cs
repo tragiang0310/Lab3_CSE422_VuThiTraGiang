@@ -159,8 +159,19 @@ namespace Lab3_CSE422_VuThiTraGiang
             //Console.ReadKey();
 
 
-            //Exercise 9
+            //exercise 9
 
+
+            //exercise 10
+            Library library = new Library();
+            NotificationService notificationService = new NotificationService();
+
+            library.OnBookBorrowed += notificationService.SendNotification;
+            library.OnBookBorrowed += notificationService.LogBorrowing;
+
+            library.BorrowBook("Elements of Reusable Object-Oriented Software");
+
+            Console.ReadKey();
 
         }
     }

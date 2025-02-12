@@ -25,5 +25,10 @@ namespace Lab3_CSE422_VuThiTraGiang.Model
                 Console.WriteLine($"Notification to {recipient}: {message}");
             }
         }
+
+        public void LogBorrowing(string bookTitle)
+        {
+            Console.WriteLine($"Log: Book '{bookTitle}' borrowed at {DateTime.Now}");
+        }
     }
 }
